@@ -62,12 +62,32 @@
 
 //print all the number from 1-10  except the number 3, 4, 7
 
-for(let i=1;i<=10;i++){
-    if(i===3 || i===4 || i===7){
-        continue
-    }else{
-        console.log(i)
-    }
+// for(let i=1;i<=10;i++){
+//     if(i===3 || i===4 || i===7){
+//         continue
+//     }else{
+//         console.log(i)
+//     }
 
-    // console.log(i)
+//     // console.log(i)
+// }
+
+
+//print all the prime numbers from 2-100
+
+for(i=2;i<=100; i++){
+    if(i<=5){
+        if(i%1==0 && i%i==0 ){
+            console.log(i)
+        }
+
+    }else if(5<i<=9){
+        if(i%1==0 && i%i==0 &&(i%2!==0) && (i%3!==0)){
+            console.log(i)
+        }
+    }else{
+        if(i%1==0 && i%i==0&&(i%2!==0) && (i%3!==0)  && (i%4!=0)  && (i%5!=0)  && (i%6!=0)  && (i%7!=0)  && (i%8!=0)  && (i%9!==0)  ){
+            console.log(i)
+        }
+    }
 }
