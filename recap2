@@ -1,0 +1,7 @@
+var , let , const 
+var variableName = 10 ;
+number ,string , boolean , null , undefined ==> primitive data type
+array , object ===> non-primitive data type
+
+
+
